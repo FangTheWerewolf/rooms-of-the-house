@@ -1,4 +1,8 @@
-header {
-    border: 5px;
+.header {
     border-color: black;
+    border-style: ridge;
+    border-width: 5px;
+    text-align: center;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
 }
