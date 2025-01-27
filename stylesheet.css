@@ -1,14 +1,22 @@
 .header {
     border-color: black;
     border-style: ridge;
-    border-width: 5px;
+    border-width: 10px;
     text-align: center;
     background-color: blue;
     font-family: 'Times New Roman', Times, serif;
+
+    /*Animation Code*/
+    animation: fadeIn 10s;
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
 }
 
 body {
-    background-image: url(metal_shine.jpg);
+    background-image: url(seamless-loop-joe-merrell.gif);
     background-size: cover;
     background-repeat: off;
     background-position: center;
