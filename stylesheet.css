@@ -23,5 +23,6 @@ body {
 }
 
 .exitdoor {
-    
+    float: right;
+    position: absolute;
 }
